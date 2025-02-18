@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>烟花模拟器</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="theme-color" content="#000000" />
+		<link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+		<link rel="icon" type="image/png" href="./images/favicon.png" />
+		<link rel="apple-touch-icon-precomposed" href="./images/favicon.png" />
+		<meta name="msapplication-TileColor" content="#000000" />
+		<meta name="msapplication-TileImage" content="./images/favicon.png" />
+		<link href="./fonts/css.css" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- SVG Spritesheet -->
+		<div style="height: 0; width: 0; position: absolute; visibility: hidden">
+			<svg xmlns="http://www.w3.org/2000/svg">
+				<!-- ... SVG symbols ... -->
+			</svg>
+		</div>
+		<!-- App -->
+		<div class="container">
+			<div class="loading-init">
+				<div class="loading-init__header">加载中</div>
+				<div class="loading-init__status">正在装配烟花</div>
+			</div>
+			<div class="stage-container remove">
+				<!-- ... 其他内容 ... -->
+			</div>
+		</div>
+
+		<!-- partial -->
+		<script src="./js/fscreen.js"></script>
+		<script src="./js/Stage.js"></script>
+		<script src="./js/MyMath.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html> 
